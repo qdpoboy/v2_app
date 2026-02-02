@@ -49,7 +49,7 @@ export default function Detail() {
   return (
     <KeyboardAvoidingView behavior="padding" keyboardVerticalOffset={100} className="flex-1">
       <ScrollView
-        className="flex-1 px-4 py-4"
+        className="flex-1 p-2"
         keyboardShouldPersistTaps="handled"
       >
         {topic && (
